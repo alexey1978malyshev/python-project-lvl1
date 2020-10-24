@@ -1,11 +1,12 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
-def greet(who):
-    print('{}'.format(who))
+from cli import welcome_user
 
 def main():
-    greet('Welcome to the Brain Games!')
-    
+    """Make a user intreface."""
+    print('Welcome to the Brain Games!')
+    welcome_user()
+
 if __name__ == '__main__':
     main()
 
